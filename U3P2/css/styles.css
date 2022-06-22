@@ -1,0 +1,12 @@
+img{
+    width: 300px;
+    margin: 0;
+}
+.mydiv{
+    border:solid 1px gray;
+    padding: 0;
+    margin: 100px;
+}
+.mydiv p{
+    margin:15px;
+}
