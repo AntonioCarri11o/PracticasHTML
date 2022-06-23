@@ -9,7 +9,7 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/styles.css">
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">AWEB-U3-P2</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
               <li><a class="dropdown-item" href="#">Servlet</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">JSP</a></li>
-              <li><a href="dropdown-item" href="#">Conexion BD</a></li>
+              <li><a class="dropdown-item" href="#">Conexion BD</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -45,16 +45,71 @@
 <body>
     <br>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-2 mydiv"><img src="img/img1.jpg" alt="" class="img-fluid">
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. Curabitur volutpat fringilla placerat. Ut laoreet eleifend.</p></div>
-            <div class="col-sm-2 mydiv"><img src="img/img2.jpg" alt="" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. Curabitur volutpat fringilla placerat. Ut laoreet eleifend.</p></div>
-            <div class="col-sm-2 mydiv"><img src="img/img3.jpg" alt="" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. Curabitur volutpat fringilla placerat. Ut laoreet eleifend.</p></div>
+        <div class="row" >
+            <div class="col-lg-3 col-md-5 mydiv card"><img src="img/img1.jfif" alt="" >  
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit 
+              lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. 
+            </p></div>
+            <div class="col-lg-3 col-md-5 mydiv card"><img src="img/img2.jfif" alt="" >
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit 
+              lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. </p></div>
+            <div class="col-lg-3 col-md-5 mydiv card"><img src="img/img3.jpg" alt="" >
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam blandit 
+              lacinia blandit. Sed tincidunt aliquam tempor. Morbi vehicula sit amet velit a laoreet. </p></div>
         </div>
-
+    </div>
+    <div class="container">
+      <br> 
+      <h2>Personas registradas</h2>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Antonio</td>
+            <td>Carrillo</td>
+            <td>20</td>
+            <td><button type="button" class="btn btn-info">Modificar</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Adrián</td>
+            <td>Beltrán</td>
+            <td>20</td>
+            <td><button type="button" class="btn btn-info">Modificar</button>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ana</td>
+            <td>García</td>
+            <td>20</td>
+            <td><button type="button" class="btn btn-info">Modificar</button>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Rocio</td>
+            <td>Contreras</td>
+            <td>19</td>
+            <td><button type="button" class="btn btn-info">Modificar</button></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Irwin</td>
+            <td>Velázquez</td>
+            <td>20</td>
+            <td><button type="button" class="btn btn-info">Modificar</button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 </body>
 </html>l
